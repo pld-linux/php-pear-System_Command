@@ -2,8 +2,8 @@
 %define		_class		System
 %define		_subclass	Command
 %define		_pearname	%{_class}_%{_subclass}
-Summary:	%{_class}_%{_subclass} - commandline execution interface
-Summary(pl):	%{_class}_%{_subclass} - interfejs do wykonywania poleceñ systemowych
+Summary:	%{_pearname} - commandline execution interface
+Summary(pl):	%{_pearname} - interfejs do wykonywania poleceñ systemowych
 Name:		php-pear-%{_pearname}
 Version:	1.0
 Release:	2
