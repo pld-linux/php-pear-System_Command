@@ -24,7 +24,7 @@ Running functions from the commandline can be dangerous if the proper
 precautions are not taken to escape the shell arguments and reaping
 the exit status properly. This class give a formal interface to both,
 so that you can run a system command as comfortably as you would run a
-php function, which full pear error handling as results on failure.
+PHP function, which full pear error handling as results on failure.
 
 In PEAR status of this package is: %{_status}.
 
