@@ -26,7 +26,7 @@ the exit status properly. This class give a formal interface to both,
 so that you can run a system command as comfortably as you would run a
 php function, which full pear error handling as results on failure.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 U¿ywanie funkcji z poleceñ systemowych mo¿e byæ niebezpieczne, je¶li
