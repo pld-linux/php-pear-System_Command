@@ -6,12 +6,13 @@ Summary:	%{_class}_%{_subclass} - commandline execution interface
 Summary(pl):	%{_class}_%{_subclass} - interfejs do wykonywania poleceñ systemowych
 Name:		php-pear-%{_pearname}
 Version:	1.0
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
 BuildRequires:	rpm-php-pearprov
+Requires:	php-pear
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
