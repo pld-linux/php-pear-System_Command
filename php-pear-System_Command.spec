@@ -33,7 +33,7 @@ U¿ywanie funkcji z poleceñ systemowych mo¿e byæ niebezpieczne, je¶li
 nie wykona³o siê odpowiedniego przygotowania parametrów i sprawdzenia
 kodu wyj¶cia. Ta klasa daje formalny interfejs do obu rzeczy, co
 pozwala na wywo³ywanie poleceñ systemowych w sposób tak wygodny, jak
-wywo³anie funkcji php, która u¿ywa obs³ugi b³êdów PEAR-a w przypadku
+wywo³anie funkcji PHP, która u¿ywa obs³ugi b³êdów PEAR-a w przypadku
 niepowodzenia.
 
 Ta klasa ma w PEAR status: %{_status}.
