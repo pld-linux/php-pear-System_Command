@@ -10,8 +10,8 @@ Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-BuildRequires:	rpm-php-pearprov
 URL:		http://pear.php.net/
+BuildRequires:	rpm-php-pearprov
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -23,6 +23,12 @@ so that you can run a system command as comfortably as you would run a
 php function, which full pear error handling as results on failure.
 
 %description -l pl
+U¿ywanie funkcji z poleceñ systemowych mo¿e byæ niebezpieczne, je¶li
+nie wykona³o siê odpowiedniego przygotowania parametrów i sprawdzenia
+kodu wyj¶cia. Ta klasa daje formalny interfejs do obu rzeczy, co
+pozwala na wywo³ywanie poleceñ systemowych w sposób tak wygodny, jak
+wywo³anie funkcji php, która u¿ywa obs³ugi b³êdów PEAR-a w przypadku
+niepowodzenia.
 
 %prep
 %setup -q -c
