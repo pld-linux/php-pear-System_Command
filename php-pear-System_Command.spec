@@ -1,7 +1,9 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		System
 %define		_subclass	Command
+%define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
+
 Summary:	%{_pearname} - commandline execution interface
 Summary(pl):	%{_pearname} - interfejs do wykonywania poleceñ systemowych
 Name:		php-pear-%{_pearname}
@@ -24,6 +26,8 @@ the exit status properly. This class give a formal interface to both,
 so that you can run a system command as comfortably as you would run a
 php function, which full pear error handling as results on failure.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 U¿ywanie funkcji z poleceñ systemowych mo¿e byæ niebezpieczne, je¶li
 nie wykona³o siê odpowiedniego przygotowania parametrów i sprawdzenia
@@ -31,6 +35,8 @@ kodu wyj¶cia. Ta klasa daje formalny interfejs do obu rzeczy, co
 pozwala na wywo³ywanie poleceñ systemowych w sposób tak wygodny, jak
 wywo³anie funkcji php, która u¿ywa obs³ugi b³êdów PEAR-a w przypadku
 niepowodzenia.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
