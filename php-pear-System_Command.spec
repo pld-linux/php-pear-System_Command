@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - commandline execution interface
 Summary(pl):	%{_pearname} - interfejs do wykonywania poleceñ systemowych
 Name:		php-pear-%{_pearname}
-Version:	1.0.1
-Release:	2.1
+Version:	1.0.2
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	1cdc6c0797c719cf5c0cc4d21f1be058
+# Source0-md5:	46eb9ffc014bdd6b28c236953a9a8660
 URL:		http://pear.php.net/package/System_Command/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
