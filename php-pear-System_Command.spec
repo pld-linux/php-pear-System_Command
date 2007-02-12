@@ -4,7 +4,7 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - commandline execution interface
-Summary(pl):	%{_pearname} - interfejs do wykonywania poleceÒ systemowych
+Summary(pl.UTF-8):   %{_pearname} - interfejs do wykonywania polece≈Ñ systemowych
 Name:		php-pear-%{_pearname}
 Version:	1.0.5
 Release:	2
@@ -29,12 +29,12 @@ PHP function, which full pear error handling as results on failure.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Uøywanie funkcji z poleceÒ systemowych moøe byÊ niebezpieczne, je∂li
-nie wykona≥o siÍ odpowiedniego przygotowania parametrÛw i sprawdzenia
-kodu wyj∂cia. Ta klasa daje formalny interfejs do obu rzeczy, co
-pozwala na wywo≥ywanie poleceÒ systemowych w sposÛb tak wygodny, jak
-wywo≥anie funkcji PHP, ktÛra uøywa obs≥ugi b≥ÍdÛw PEAR-a w przypadku
+%description -l pl.UTF-8
+U≈ºywanie funkcji z polece≈Ñ systemowych mo≈ºe byƒá niebezpieczne, je≈õli
+nie wykona≈Ço siƒô odpowiedniego przygotowania parametr√≥w i sprawdzenia
+kodu wyj≈õcia. Ta klasa daje formalny interfejs do obu rzeczy, co
+pozwala na wywo≈Çywanie polece≈Ñ systemowych w spos√≥b tak wygodny, jak
+wywo≈Çanie funkcji PHP, kt√≥ra u≈ºywa obs≈Çugi b≈Çƒôd√≥w PEAR-a w przypadku
 niepowodzenia.
 
 Ta klasa ma w PEAR status: %{_status}.
