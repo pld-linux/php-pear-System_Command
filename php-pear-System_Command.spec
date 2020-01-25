@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	System_Command
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - commandline execution interface
 Summary(pl.UTF-8):	%{pearname} - interfejs do wykonywania poleceń systemowych
 Name:		php-pear-%{pearname}
